@@ -32,12 +32,16 @@ checkPerformance
 
 This will generate a figure showing the speed-up obtained from using `lammpsReader.m`, an example of which is shown below.
 
-![](performance/checkPerformance.png)
+![Performance of lammpsReader.m using the checkPerformance.m script](performance/checkPerformance.png =100x)
+
+While the above performs a check of the performance using dummy files, the following figure demostrates the speed-up obtained from actual lammps dump files.
+
+![Performance of lammpsReader.m using actual dump output file](performance/gapgraded_performance.png =100x) 
 
 
 ## Authors
 
-* **Adnan Sufian** - email: [a.sufian@imperial.ac.uk](a.sufian@imperial.ac.uk)
+**Adnan Sufian** - email: [a.sufian@imperial.ac.uk](a.sufian@imperial.ac.uk)
 
 ## License
 
