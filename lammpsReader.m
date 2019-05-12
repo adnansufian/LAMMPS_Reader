@@ -36,12 +36,12 @@ function [file] = lammpsReader(filename, varargin)
 % % If no optional arguments are required (which should be the case in most
 % instances), then the function can be called using:
 % 
-%   file = lammpsReader('dump.file');
+%   file = lammpsReader('example.dump');
 % 
 % If optional arguments are required, then use the name-value format typical
 % of most matlab functions.
 % 
-%   file = lammpsReader('dump.file', 'numHeaderRows', 8);
+%   file = lammpsReader('example.dump', 'numHeaderRows', 8);
 % 
 % AUTHOR
 % Adnan Sufian
